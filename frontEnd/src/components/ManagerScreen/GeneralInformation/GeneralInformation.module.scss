@@ -1,0 +1,18 @@
+@import "../../../assets/theme/constants.scss";
+
+.switchField {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+
+  .label {
+    margin-right: 10px;
+  }
+}
+.css-1bt3d05-MuiInputBase-input-MuiOutlinedInput-input .datepicker{
+  color: white !important;
+}
+.css-1xf90uz-MuiInputBase-root-MuiOutlinedInput-root .css-1xf90uz-MuiInputBase-root-MuiOutlinedInput-root{
+  color: white !important;
+
+}

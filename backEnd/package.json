@@ -1,0 +1,28 @@
+{
+  "name": "nodebackend",
+  "version": "1",
+  "type": "module", 
+  "main": "app.js",
+  "author": "avishka",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "joi": "^17.12.3",
+    "joi-password-complexity": "^5.2.0",
+    "jsonwebtoken": "^9.0.2",
+    "jwt-decode": "^3.1.2",
+    "mongoose": "^6.12.8",
+    "nodemon": "^2.0.22",
+    "pino": "^8.20.0",
+    "pino-pretty": "^9.4.1"
+  },
+  "scripts": {
+    "start": "nodemon src/app.js"
+  }
+  
+}

@@ -1,0 +1,43 @@
+@import "../../assets/theme/constants.scss";
+.container {
+// position: fixed;
+background: url("../../assets/images/bg/login-bg-style-1.jpg");
+height: 100%;
+width: 100%;
+display: flex;
+overflow: auto;
+
+}
+.dashboard {
+    .card_container {
+      display: flex;
+      gap: 6rem;
+    }
+
+    .dashboard_card {
+      border-radius: 20px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+      overflow: hidden;
+      text-align: center;
+      width: 20rem;
+      height: 20rem;
+      .icon {
+        font-size: 10rem;
+        color: rgb(2, 84, 45); // This should be the color of your icons
+      }
+      .button{
+        color: rgb(236, 240, 238);
+        background-color: rgb(2, 84, 45);
+        border: none;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 5px;
+      }
+    }
+  }
+  
